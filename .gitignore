@@ -1,0 +1,25 @@
+
+# Ignorar pastas e arquivos do Google Colab / Jupyter Notebooks
+.ipynb_checkpoints/
+sample_data/
+.config/
+
+# Ignorar pastas do dataset local de imagens e arquivos compactados
+casting_data/
+dataset/
+*.zip
+*.tar.gz
+
+# Ignorar cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar checkpoints e arquivos de modelos salvos
+*.h5
+*.keras
+*.pt
+*.ckpt
+
+# Ignorar arquivos do sistema e variáveis de ambiente
+.DS_Store
+.env
